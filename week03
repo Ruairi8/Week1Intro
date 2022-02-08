@@ -1,0 +1,16 @@
+x = 5
+y = 5.5
+z = True
+a = 'Hello'
+b = [1, 'a', 'welcome']
+
+print('Variable {} is of type:{} and value:{}'.format('x', type(x), x))
+print('Variable {} is of type:{} and value:{}'.format('y', type(y), y))
+print('Var {} is of type:{} and value:{}'.format('z', type(z), z))
+print('Var {} is of type:{} and value:{}'.format('a', type(a), a))
+print('Var {} is of type:{} and value:{}'.format('b', type(b), b))
+
+user = int(input("Enter first number: "))
+user1 = int(input("Enter second number: "))
+x = user - user1
+print("{} minus {} is {}".format(user, user1, x))
